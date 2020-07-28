@@ -1,0 +1,181 @@
+@font-face{
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  flex: 1;
+}
+
+.nav {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.footer {
+  bottom: 0;
+  font-size: 14px;
+  height: 40px;
+  position: fixed;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#right {
+  float: right;
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-icon {
+  opacity: 55%;
+  width: 24px;
+  height: 24px;
+}
+
+.app-icon:hover {
+  opacity: 100%;
+}
+
+.sign-in {
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  background-color: rgb(66, 133, 244);
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 7px 13px;
+  border: none;
+  border-radius: 2px;
+  size: 25px 213px;
+  outline: none;
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+  padding-top: 180px;
+}
+
+.search-bar {
+  width: 600px;
+  position: relative;
+  height: 40px;
+  border: 1px solid #bebaba;
+  border-radius: 30px;
+  margin: 30px auto;
+  box-sizing: inherit;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.30);
+}
+
+.search-text {
+  width: inherit;
+  display: inline-block;
+  height: inherit;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  box-sizing: inherit;
+  text-align: left;
+  padding-left: 40px;
+  font-family: sans-serif;
+  outline: none;
+}
+
+.mag-glass {
+  background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 565px;
+  top: 12px;
+  opacity: 0.3;
+  background-position: -250px -36px;
+}
+.mic {
+  background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+  display: inline-block;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: 20px;
+  top: 10px;
+  background-size: 24px 24px;
+  cursor: pointer;
+}
+
+.search-buttons {
+  display: flex;
+  width: 600px;
+  height: 40px;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.search-button {
+  font-size: 14px;
+  opacity: .7;
+  text-decoration-line: none;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 0 15px 0 15px;
+}
+
+.lucky-button {
+  font-family: helvetica;
+  font-size: 14px;
+  opacity: .7;
+  margin-right: 15px;
+  text-decoration-line: none;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+  padding: 0 15px 0 15px;
+}
+
+.button:hover {
+  border-color:rgba(32, 33, 36, 0.30)
+}
